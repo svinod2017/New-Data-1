@@ -25,62 +25,57 @@
       "filters": "[]",
       "height": 720.00,
       "name": "ReportSection",
+      "visualContainers": [],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Page 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection56fcb799a0da8426aa82",
+      "ordinal": 1,
       "visualContainers": [
         {
-          "config": "{\"name\":\"01b72edc990f59db0066\",\"layouts\":[{\"id\":0,\"position\":{\"x\":873.0523917995445,\"y\":0,\"width\":406.94760820045553,\"height\":388.76233864844346,\"z\":1000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(financials.Discounts)\"}],\"Category\":[{\"queryRef\":\"financials.Country\",\"active\":true}],\"Series\":[{\"queryRef\":\"financials.Product\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"financials\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Discounts\"}},\"Function\":0},\"Name\":\"Sum(financials.Discounts)\",\"NativeReferenceName\":\"Sum of Discounts\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Country\"},\"Name\":\"financials.Country\",\"NativeReferenceName\":\"Country\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Product\"},\"Name\":\"financials.Product\",\"NativeReferenceName\":\"Product\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Discounts\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"b9191be8065771fabf58\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.719058466211086,\"y\":399.27107061503415,\"z\":1,\"width\":572.452543659833,\"height\":320.72892938496585,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"financials.Country\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(financials.Profit)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"financials\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Country\"},\"Name\":\"financials.Country\",\"NativeReferenceName\":\"Country\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(financials.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Profit\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 320.73,
+          "width": 572.45,
+          "x": 9.72,
+          "y": 399.27,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"bac3a4d31c5d8cb2abf8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":387.79043280182236,\"y\":28.18526955201215,\"z\":0,\"width\":299.34700075930147,\"height\":299.34700075930147}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"financials.Date.Variation.Date Hierarchy.Year\",\"active\":true},{\"queryRef\":\"financials.Date.Variation.Date Hierarchy.Quarter\"},{\"queryRef\":\"financials.Date.Variation.Date Hierarchy.Month\"},{\"queryRef\":\"financials.Date.Variation.Date Hierarchy.Day\"}],\"Values\":[{\"queryRef\":\"Sum(financials.Profit)\"},{\"queryRef\":\"Sum(financials.Gross Sales)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"financials\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"financials.Date.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"Date Year\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Quarter\"},\"Name\":\"financials.Date.Variation.Date Hierarchy.Quarter\",\"NativeReferenceName\":\"Date Quarter\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"financials.Date.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"Date Month\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Day\"},\"Name\":\"financials.Date.Variation.Date Hierarchy.Day\",\"NativeReferenceName\":\"Date Day\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(financials.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Gross Sales\"}},\"Function\":0},\"Name\":\"Sum(financials.Gross Sales)\",\"NativeReferenceName\":\"Sum of Gross Sales\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 299.35,
+          "width": 299.35,
+          "x": 387.79,
+          "y": 28.19,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"ce4992542e07b7a6c53a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":873.0523917995445,\"y\":0,\"width\":406.94760820045553,\"height\":388.76233864844346,\"z\":2,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(financials.Discounts)\"}],\"Category\":[{\"queryRef\":\"financials.Country\",\"active\":true}],\"Series\":[{\"queryRef\":\"financials.Product\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"financials\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Discounts\"}},\"Function\":0},\"Name\":\"Sum(financials.Discounts)\",\"NativeReferenceName\":\"Sum of Discounts\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Country\"},\"Name\":\"financials.Country\",\"NativeReferenceName\":\"Country\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Product\"},\"Name\":\"financials.Product\",\"NativeReferenceName\":\"Product\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Discounts\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
           "height": 388.76,
           "width": 406.95,
           "x": 873.05,
           "y": 0.00,
-          "z": 1000.00
-        },
-        {
-          "config": "{\"name\":\"0d7b2944c3774f1236f5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1076.8716780561883,\"y\":399.45330296127565,\"z\":3000,\"width\":203.1283219438117,\"height\":95.24677296886865,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"financials.Country\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"financials\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Country\"},\"Name\":\"financials.Country\",\"NativeReferenceName\":\"Country\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
-          "filters": "[]",
-          "height": 95.25,
-          "width": 203.13,
-          "x": 1076.87,
-          "y": 399.45,
-          "z": 3000.00
-        },
-        {
-          "config": "{\"name\":\"890441540bc03e63def3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":582.171602126044,\"y\":399.45330296127565,\"z\":4000,\"width\":280.88078967350043,\"height\":95.24677296886865,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"financials.Month Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"financials\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Month Name\"},\"Name\":\"financials.Month Name\",\"NativeReferenceName\":\"Month Name\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
-          "filters": "[]",
-          "height": 95.25,
-          "width": 280.88,
-          "x": 582.17,
-          "y": 399.45,
-          "z": 4000.00
-        },
-        {
-          "config": "{\"name\":\"b7682cda9bab8ea74b7a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":582.1716021260441,\"y\":494.7000759301443,\"width\":280.8807896735003,\"height\":225.2999240698557,\"z\":5000,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"financials.Date.Variation.Date Hierarchy.Month\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"financials\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"financials.Date.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"Date Month\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
-          "filters": "[]",
-          "height": 225.30,
-          "width": 280.88,
-          "x": 582.17,
-          "y": 494.70,
-          "z": 5000.00
-        },
-        {
-          "config": "{\"name\":\"e0c55b77512fc8eb6af2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.719058466211086,\"y\":399.45330296127565,\"z\":2000,\"width\":572.452543659833,\"height\":320.72892938496585,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"financials.Country\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(financials.Profit)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"financials\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Country\"},\"Name\":\"financials.Country\",\"NativeReferenceName\":\"Country\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(financials.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Profit\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
-          "filters": "[]",
-          "height": 320.73,
-          "width": 572.45,
-          "x": 9.72,
-          "y": 399.45,
-          "z": 2000.00
-        },
-        {
-          "config": "{\"name\":\"f022a811692f740e7232\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.719058466211086,\"y\":0,\"z\":0,\"width\":853.3333333333334,\"height\":388.76233864844346,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"financials.Country\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(financials.Profit)\"}],\"Series\":[{\"queryRef\":\"financials.Product\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"financials\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Country\"},\"Name\":\"financials.Country\",\"NativeReferenceName\":\"Country\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(financials.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Product\"},\"Name\":\"financials.Product\",\"NativeReferenceName\":\"Product\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Profit\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
-          "filters": "[]",
-          "height": 388.76,
-          "width": 853.33,
-          "x": 9.72,
-          "y": 0.00,
-          "z": 0.00
+          "z": 2.00
         }
       ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Page 3",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection9d25a3d90be1fac04f00",
+      "ordinal": 2,
+      "visualContainers": [],
       "width": 1280.00
     }
   ]
